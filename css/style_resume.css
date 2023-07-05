@@ -1,0 +1,742 @@
+/* Stylesheet by Jake Steinberg, Oct. 2022 */
+
+/* universal site styles */
+
+.body {
+    background-color: #e8d6d6;
+    color: #FAF9F6;
+    padding-bottom: 100px;
+    
+}
+
+.body a {
+    color: #198754;
+}
+
+.body a:hover {
+    color: #CA6702;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: OpenSans;
+    src: url("fonts/OpenSans-VariableFont_wdth,wght.ttf");
+    font-style: normal;
+ }
+
+@font-face {
+    font-family: OpenSansI;
+    src: url("fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: lato;
+    src: url("fonts/Lato-Regular.ttf");
+    font-style: normal;
+}
+
+/* index.html, navbar */
+
+#navbarNav {
+    width: 800px;
+}
+
+.body .nav-link {
+    color: #14245b;
+    font-size: 16pt;
+    font-family: lato;
+    
+}
+
+.body .nav-link:hover {
+    color: #CA6702;
+}
+
+.body a.nav-link.active {
+    color: #14245b;
+}
+.body a.nav-link.active:hover {
+    color: #CA6702;
+}
+
+.nav-name {
+    color: #14245b;
+    font-size: 30pt;
+    margin-bottom: 0;
+    margin-top: 10;
+    font-family: lato;
+}
+
+.nav-sub {
+    font-family: lato;
+    font-size: 16pt;
+    font-variant: small-caps;
+    color: #6f877e;
+}
+
+#name-container{
+    margin-left: 8%;
+    padding-bottom: 0;
+    padding-top: 1%;
+    margin-right: 10%;
+    
+}
+
+.title-blue {
+    text-align: left;
+    color: #14245b;
+  }
+  
+  .subtitle-green {
+    text-align: left;
+    color: #6f877e;
+  }
+  
+  .subtitle-gray {
+    float: right;
+    color: #444444;
+  }
+  
+  .list-gray {
+    text-align: left;
+    color: #444444;
+  }
+  
+
+/* on mobile devices */
+
+@media only screen and (min-width: 0px) and (max-width: 576px)  {
+    #nav-name{
+        display: none;
+    }
+
+    #navbarNav{
+        width: 330px
+    }
+
+    #name-container{
+        margin-left: 3%;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile{
+        display: block !important;
+    }
+
+    #amillion .nav-name {
+        letter-spacing: 1px !important;
+    }
+
+    #amillion h1#deconstruct {
+        font-size: 16pt !important;
+    }
+
+    #amillion .row.glyph {
+        margin-top: 50% !important;
+        margin-bottom: 50% !important;
+    }
+
+    #amillion #text-pic {
+        width: 50% !important;
+        margin-left: auto !important;
+    }
+
+    #amillion #text-pic-2 {
+        margin-right: auto !important;
+    }
+
+    #amillion p.amillion-text-pic-2 {
+        text-align: left !important;
+    }
+    
+ }
+
+/* index.html, top */
+
+.container #top {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.me-box {
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+    }
+.me-contact {
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+    
+
+    }
+
+#me-box img {
+    width: 100%
+}
+
+#me-text {
+	position: relative;
+	height: auto;
+	float: left;
+    color: #FAF9F6;
+    font-family: lato;
+    padding: 1em;
+    padding-bottom: 2em;
+}
+
+.about-intro {
+    position: relative;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 300;
+	text-align: left;
+	float: left;
+	margin: 100px 0px 0px 0px;
+    font-family: lato;
+    color: rgb(98 73 71);
+}
+
+#me-pic {
+    position: relative;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+    outline-style: solid;
+    outline-width: 0px;
+    outline-color: #FAF9F6;
+}
+
+/* index.html, portfolio */
+
+.portfolio-title {
+    color:#198754;
+    font-family: lato;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 1em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#grid-pic {
+    width: 100%;
+    outline-style: solid;
+    outline-width: 0px;
+    outline-color: #FAF9F6;
+    transition: transform .3s ease-in-out;
+}
+
+#grid-pic:hover {
+    transform: rotate(3deg);
+}
+
+.grid-item {
+    float: left;
+    padding: 5%;
+}
+
+.card-title {
+    text-align: center;
+    color: #198754;
+    font-family: lato;
+    font-size: 14pt;
+    padding-top: 1em;
+}
+
+/* resume.html */
+
+#resume-item {
+    font-family: lato;
+    padding-bottom: 20px;
+    color: #262421;
+}
+#contact-item {
+    font-family: lato;
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+
+
+#resume {
+    padding-top: 30px;
+}
+
+.section {
+    font-family: lato;
+    margin-top: 0 !important;
+    color: #262421;
+}
+
+.body hr {
+    opacity: 1 ;
+}
+
+.date {
+    margin-bottom: 5px;
+    font-variant: small-caps;
+}
+
+.job {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comp {
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 14pt;
+}
+
+.skills {
+    margin-top: 1em;
+}
+
+/* portfolio pages */
+
+.map-title {
+    font-family: lato;
+    padding: 1em;
+}
+
+.map-detail {
+    font-family: lato;
+    padding-bottom: 50px;
+}
+
+.portfolio-image {
+    width: 100%;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #FAF9F6;
+}
+
+/* pipeline.html */
+
+#pipeline {
+    background-color: #16191E;
+}
+
+#pipeline .nav-link {
+    font-size: 26pt;
+    font-family: Grenze;
+    letter-spacing: .5px;
+}
+
+#pipeline #name-container {
+    padding-top: 0;
+    justify-content: center;
+}
+
+#pipeline nav.navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0;
+}
+
+#pipeline #navbarNav {
+    justify-content: center;
+}
+
+.background-item.pipeline {
+    width: 100vw !important;
+}
+
+#pipeline a:hover {
+    color: #cbcb2c;
+}
+
+#pipeline .jump a {
+    font-size: 20pt;
+    color: #cbcb2c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#pipeline .jump a:hover {
+    color:#cbcb2cb5
+}
+
+.mobile {
+    display: none;
+}
+
+#pipeline .mobile-text {
+    margin: 20%;
+    padding-bottom: 100vh;
+    text-align: center;
+}
+
+.pipeline-text {
+    text-align: left;
+    color: black;
+    font-family: Garamond;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.center.title.pipeline h2 {
+    font-family: Garamond;
+    font-size: 44pt;
+    margin-bottom: 20px;
+}
+
+.center.title.pipeline {
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+img#fade-in {
+    animation: fadeIn 2s;
+    animation-iteration-count: 1;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* ai2html stuff */
+        #g-pipeline-box ,
+        #g-pipeline-box .g-artboard {
+            margin:0 auto;
+        }
+        #g-pipeline-box p {
+            margin:0;
+        }
+        #g-pipeline-box .g-aiAbs {
+            position:absolute;
+        }
+        #g-pipeline-box .g-aiImg {
+            position:absolute;
+            top:0;
+            display:block;
+            width:100% !important;
+        }
+        #g-pipeline-box .g-aiSymbol {
+            position: absolute;
+            box-sizing: border-box;
+        }
+        #g-pipeline-box .g-aiPointText p { white-space: nowrap; }
+        #g-pipeline-Artboard_1 {
+            position:relative;
+            overflow:hidden;
+        }
+        #g-pipeline-Artboard_1 p {
+            font-weight:500;
+            line-height:29px;
+            opacity:1;
+            letter-spacing:0em;
+            font-size:24px;
+            text-align:left;
+            color:rgb(255,255,255);
+            text-transform:none;
+            padding-bottom:0;
+            padding-top:0;
+            mix-blend-mode:normal;
+            font-style:normal;
+            height:auto;
+            position:static;
+        }
+        #g-pipeline-Artboard_1 .g-pstyle0 {
+            font-family:aktiv-grotesk,sans-serif;
+            font-style:regular;
+            line-height:19px;
+            height:19px;
+            letter-spacing:0.1em;
+            font-size:16px;
+            text-align:center;
+            text-transform:uppercase;
+            color:rgb(224,41,56);
+        }
+        #g-pipeline-Artboard_1 .g-pstyle1 {
+            font-family:aktiv-grotesk,sans-serif;
+            font-style:regular;
+            line-height:19px;
+            height:19px;
+            letter-spacing:0.05em;
+            font-size:16px;
+            color:rgb(203,203,44);
+        }
+        #g-pipeline-Artboard_1 .g-pstyle2 {
+            font-family:aktiv-grotesk,sans-serif;
+            font-weight:100;
+            font-style:regular;
+            line-height:17px;
+            height:17px;
+            letter-spacing:0.1em;
+            font-size:14px;
+            color:rgb(200,200,205);
+        }
+        #g-pipeline-Artboard_1 .g-pstyle3 {
+            font-family:aktiv-grotesk,sans-serif;
+            font-style:regular;
+            line-height:19px;
+            height:19px;
+            letter-spacing:0.1em;
+            font-size:16px;
+            text-transform:uppercase;
+            color:rgb(224,41,56);
+        }
+        #g-pipeline-Artboard_1 .g-pstyle4 {
+            font-family:aktiv-grotesk,sans-serif;
+            font-style:regular;
+            line-height:19px;
+            height:19px;
+            letter-spacing:0.1em;
+            font-size:16px;
+            text-align:center;
+            color:rgb(203,203,44);
+        }
+        #g-pipeline-Artboard_1 .g-pstyle5 {
+            font-family: Mencken;
+            font-style:italic;
+            line-height:19px;
+            height:19px;
+            letter-spacing:0.1em;
+            font-size:16px;
+            color:rgb(200,200,205);
+        }
+
+        #g-pipeline-Artboard_1 .g-pstyle6 {
+            font-family:Garamond;
+            font-style:normal;
+            font-weight: 500;
+            line-height:auto;
+            height:auto;
+            letter-spacing:auto;
+            font-size:auto;
+            color:rgb(200,200,205);
+            filter: drop-shadow(0px 0px 4px black);
+        }
+
+        #g-lake_superior-box ,
+        #g-lake_superior-box .g-artboard {
+            margin:0 auto;
+        }
+        #g-lake_superior-box p {
+            margin:0;
+        }
+        #g-lake_superior-box .g-aiAbs {
+            position:absolute;
+        }
+        #g-lake_superior-box .g-aiImg {
+            position:absolute;
+            top:0;
+            display:block;
+            width:100% !important;
+        }
+        #g-lake_superior-box .g-aiSymbol {
+            position: absolute;
+            box-sizing: border-box;
+        }
+        #g-lake_superior-box .g-aiPointText p { white-space: nowrap; }
+        #g-lake_superior-Artboard_1 {
+            position:relative;
+            overflow:hidden;
+        }
+        #g-lake_superior-Artboard_1 p {
+            font-family:aktiv-grotesk,sans-serif;
+            font-weight:100;
+            font-style:normal;
+            line-height:12px;
+            height:auto;
+            opacity:1;
+            letter-spacing:0.1em;
+            font-size:10px;
+            text-align:left;
+            color:rgb(210,210,209);
+            text-transform:none;
+            padding-bottom:0;
+            padding-top:0;
+            mix-blend-mode:normal;
+            position:static;
+        }
+        #g-lake_superior-Artboard_1 .g-pstyle0 {
+            font-style:regular;
+            height:12px;
+        }
+        #g-lake_superior-Artboard_1 .g-pstyle1 {
+            font-style:regular;
+            line-height:14px;
+            height:14px;
+            font-size:12px;
+        }
+        #g-lake_superior-Artboard_1 .g-pstyle2 {
+            font-style:regular;
+            height:12px;
+            text-align:center;
+        }
+
+
+/* 22map.html */
+
+#amillion {
+    background-color: #e6e4db;
+    color: #85827e;
+    padding-bottom: 100px;
+}
+
+#amillion .nav-name {
+    color: #a0a6a5;
+    font-family: Optima;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#amillion .nav-link {
+    color: #a0a6a5;
+    font-family: Optima;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#amillion .nav-sub {
+    color: #636059;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    letter-spacing: 1px;
+}
+
+#amillion a {
+    color: #262421;
+}
+
+#amillion a:hover {
+    color: #C72C2B;
+}
+
+#amillion-header {
+    padding-top: 2em;
+}
+
+#amillion .center.title.amillion {
+    height: 70vh
+}
+
+#amillion .title h1.amillion-title {
+    color: #a0a6a5;
+    font-family: 'Courier New', Courier, monospace;;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 50px;
+}
+
+#amillion p.amillion-text {
+    color: #636059;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    text-align: left;
+}
+
+#amillion #print {
+    padding-top: 30px;
+}
+
+#amillion .row.amillion {
+    margin-bottom: 30px;
+}
+
+#amillion .left{
+    padding-right: 40px;
+}
+
+#amillion figcaption {
+    color: #636059;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16pt;
+}
+
+#amillion h1 {
+    color: #a0a6a5;
+    font-family: Optima;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 28pt;
+}
+
+#amillion #color-pic {
+    width: 80%;
+}
+
+#amillion #text-pic {
+    width: 30%;
+    display: block;
+    margin-left: 66%;
+    margin-right: auto;
+}
+
+#amillion #text-pic-2 {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: 66%;
+}
+
+#amillion p.amillion-text-pic-2 {
+    color: #636059;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    text-align: right;
+}
+
+#amillion p.amillion-jump {
+    color: #636059;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    text-align: center;
+}
+
+#amillion .row.glyph {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+#dude {
+    width: 15%;
+}
+
+#fireball {
+    width: 20%
+}
+
+#weed {
+    width: 30%
+}
+
+#twoface {
+    width: 40%
+}
+
+#fingers {
+    width: 10%
+}
+
+#turnblue {
+    width: 30%
+}
+
+#astuary {
+    width: 80%;
+}
+
+
+/** New CSS Styles for resume**/
+

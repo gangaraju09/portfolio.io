@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Raju Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="body">
+            <!-- this is the nav bar -->
+            <nav class="navbar navbar-expand-lg navbar-default">
+                <div class="container-fluid" id="name-container">
+                    <div class="navbar" id="navbarNav">
+                        <p class="nav-name">Ramakrishna Raju</p><br><br>
+                        <p class="nav-sub">GeoSpatial Analyst | Data Visualization | Cartographic Design | UI UX Design</p>
+                    </div>
+                    <div>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resume.html">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>  
+        
+            <!-- this is the content -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-lg-2 col-md-2 col-0"></div>
+                    <div class="col col-lg-8 col-md-6 col-md-8 col-12 info">
+                        <h2 class="map-title" style="text-align: center;"> Dane County(WI,USA) covid19 Analysis </h2>
+                        <p class="map-detail">In this project, I developed a visualization of COVID-19 cases in Dane County, Wisconsin, by monitoring dynamic human mobility changes and travel flow patterns at various geographic scales. Understanding human behavior changes during the pandemic is crucial, and this project involved collecting both spatial and non-spatial structured data from the Dane County region, as well as related COVID-19 data. To process the data, I used Python libraries, specifically geopandas, to convert the data into the GeoJSON data format.
+
+                            For visualization of number of cases, I aggregated census tract information with ZCTA (Zip Code Tabular Areas) and appended COVID-19 information to this zip code information. </p>
+
+                        <p class="map-detail"> ** Vist my <a href=" https://github.com/gangaraju09/GeoSpatial_BigData"> GitHub</a> to view the code for analysis steps and visualization.</p>
+
+                        <p> <a href="img/covid_daneCounty.png"><img style="width: 500; height: 500;" src="img/covid_daneCounty.png"> </a> </p>
+
+                        <p >
+                            <li class="map-detail">
+                                For visualization of Human mobility from one zipcode location data in Dane county is converted into source & desitnation's latitude and longitude by performing google geocoding method using google maps api and kepler spatial data visualization tool
+                        </li>
+
+                        </p>
+
+                    </div>
+                    <div class="col col-md-3 col-0"></div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-1 col-md-1 col-sm-0 col-0">
+                    </div>
+                    <div class="col col-lg-10 col-md-10 col-sm-12 col-12">
+                        <a href="img/visitor_flows_53508.png"><img class="portfolio-image" src="img/visitor_flows_53508.png"></a>
+                    </div>
+                    <div class="col col-lg-1 col-md-1 col-sm-0 col-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

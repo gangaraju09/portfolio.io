@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Raju Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="body">
+            <!-- this is the nav bar -->
+            <nav class="navbar navbar-expand-lg navbar-default">
+                <div class="container-fluid" id="name-container">
+                    <div class="navbar" id="navbarNav">
+                        <p class="nav-name">Ramakrishna Raju</p><br><br>
+                        <p class="nav-sub">GeoSpatial Analyst | Data Visualization | Cartographic Design | UI UX Design</p>
+                    </div>
+                    <div>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resume.html">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>  
+        
+            <!-- this is the content -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-lg-2 col-md-2 col-0"></div>
+                    <div class="col col-lg-8 col-md-6 col-md-8 col-12 info">
+                        <h2 class="map-title" style="text-align: center;"> Land Use Land Cover change (Google API)</h2>
+                        <p class="map-detail">Google Earth is a virtual globe platform that provides users with access to a range of geospatial data, including satellite imagery, maps, terrain, and 3D buildings. It allows users to explore and learn about different parts of the world.
+
+                            On the other hand, Earth Engine is a tool designed specifically for analyzing geospatial data. It provides a data catalog that is different from the Google Earth data catalog, and not all the data available in Google Earth is available for analysis in Earth Engine. Similarly, not all the data in Earth Engine is currently available for visualization in Google Earth. Earth Engine is primarily focused on analyzing and processing geospatial data, whereas Google Earth is focused on visualizing and exploring geospatial data. </p>
+
+                        <p class="map-detail"> ** Vist my <a href=" https://github.com/gangaraju09/GeoSpatial_BigData"> GitHub</a> to view the code for analysis steps and visualization.</p>
+
+                        
+
+                        <p >
+                            <li><a href="img/landcover.png"><img style="width: 800; height: 500;" src="img/landcover.png"> </a> </li>
+
+                            <br>
+
+                            <li class="map-detail">
+                                To generate two-period maps of land cover-land use in Dane County using Dynamic World data on Google Earth Engine, I tool the data for the years 2016 and 2022, filtered the data to include only Dane County, visualized parameters to display land cover-land use classes in different colors, created two separate maps, and compare them side by side to identify any changes in land use over the six-year period. This data can inform decision-making processes and future land use planning in the county.
+                                </li>
+
+                              <li class="map-detail">  To analyze the vegetation cover in a study area, I used Landsat 8 remote sensing images and Google Earth Engine to compute the Normalized Difference Vegetation Index (NDVI) values. This involves filtering the data to the time period of interest, calculating NDVI values using Landsat 8 data and the appropriate formula, setting visualization parameters to display NDVI values in different colors, and creating a map of the study area with the NDVI values overlaid on it. This information can help identify areas requiring additional vegetation management or restoration efforts and monitor changes in vegetation cover over time.
+                        </li>
+
+                        <p> <a href="img/Aral_sea_ts.gif"><img style="width: 500; height: 500;" src="img/Aral_sea_ts.gif"> </a> </p>
+
+                        <li class="map-detail">
+                            To create a Landsat timelapse animation GIF file, I used Google Earth Engine to filter Landsat data for a specific area and time period, set visualization parameters, and export the animation as a GIF file. This can provide valuable insights into land use and environmental changes over time, which can be used for monitoring, analysis, and public education purposes. The resulting timelapse animation is a dynamic and engaging way to show environmental changes and human impacts on the planet.
+                        </li>
+                        </p>
+
+                    </div>
+                    <div class="col col-md-3 col-0"></div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-1 col-md-1 col-sm-0 col-0">
+                    <!--</div>
+                    <div class="col col-lg-10 col-md-10 col-sm-12 col-12">
+                        <a href="img/visitor_flows_53508.png"><img class="portfolio-image" src="img/visitor_flows_53508.png"></a>
+                    </div>-->
+                    <div class="col col-lg-1 col-md-1 col-sm-0 col-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
